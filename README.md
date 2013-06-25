@@ -10,16 +10,16 @@ Basta alterar o arquivo **index.php** de cada aplicação e definir o caminho da
 
 ### Estrutura das pastas
 
-* admin (para cada aplicação que não seja default)
-> 	.htaccess
-> 	index.php
+*	admin (para cada aplicação que não seja default)
+	> .htaccess
+	> index.php
 * applications (pasta das aplicações)
-* 	admin
->		.htaccess
-* 	portal
->		.htaccess
-* CIcore_versions
->	system_2.1.3
+*	admin
+	> .htaccess
+*	portal
+	> .htaccess
+*	CIcore_versions
+	> system_2.1.3
 * index.php
 * user_guide
 
