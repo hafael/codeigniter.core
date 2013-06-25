@@ -6,20 +6,20 @@ codeigniter.core
 ### Com esta estrutura é possível gerenciar multiplos projetos com o CodeIgniter.
 
 Também é possível trabalhar com várias versões do core.
-Basta alterar o arquivo **index.php** de cada aplicação e definir o caminho da pasta **system** na variável '$system_path = "";'
+Basta alterar o arquivo **index.php** de cada aplicação e definir o caminho da pasta **system** na variável **$system_path = '';**
 
 ### Estrutura das pastas
 
 * admin (para cada aplicação que não seja default)
-* 	.htaccess
-* 	index.php
+> 	.htaccess
+> 	index.php
 * applications (pasta das aplicações)
 * 	admin
-*		.htaccess
+>		.htaccess
 * 	portal
-*		.htaccess
+>		.htaccess
 * CIcore_versions
-*	system_2.1.3
+>	system_2.1.3
 * index.php
 * user_guide
 
@@ -29,20 +29,20 @@ Crie uma pasta no root com o pathname da aplicação, e crie os seguintes arquiv
 
 **.htacess**
 
-'
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php/$1 [L]
 
-'
+	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php/$1 [L]
+
+
 
 **index.php**
 
 Copie o arquivo index.php da pasta root e cole na pasta da aplicação, edite as seguintes linhas:
 
-'
-$system_path = "../CIcore_versions/system_2.1.3";
 
-$application_folder = "../applications/admin";
-'
+	$system_path = "../CIcore_versions/system_2.1.3";
+
+	$application_folder = "../applications/admin";
+
