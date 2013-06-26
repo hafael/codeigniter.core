@@ -3,10 +3,7 @@ Multiple projects with CodeIgniter
 
 ### With this structure it is possible to manage multiple projects with CodeIgniter.
 
-You can also work with multiple versions of the core.
-Basta alterar o arquivo **index.php** de cada aplicação e definir o caminho da pasta **system** na variável **$system_path = '';**
-
-Just change the file **index.php** each application and set the folder path **system** in the variable **$system_path = '';**
+You can also work with multiple versions of the core. Just change the file **index.php** each application and set the folder path **system** in the variable **$system_path = '';**
 
 ### Folder Structure
 
